@@ -4,19 +4,19 @@ body {
 p,h1 {
     color: #add900;
 }
-  @media screen and (max-width:979px) {
+@media screen and (max-width:979px) {
     body {
       background-color: #0000ff;
-  }
+    }
     p,h1 {
       color: #fff;
-  }
-  @media screen and (max-width:600px) {
+    }
+}
+@media screen and (max-width:600px) {
     body {
       background-color: #000;
     }
     p,h1 {
       color: #fff;
     }
-  }
 }
